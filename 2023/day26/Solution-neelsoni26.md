@@ -1,7 +1,7 @@
 # Day 26 of #90DaysOfDevOps
 
-# Task: Create a distributed Jenkins pipeline
-Follow below steps to create a distributed pipeline
+# Task: Create a declarative Jenkins pipeline
+Follow below steps to create a declarative pipeline
 
 1. Create a job in Jenkins, give name, and choose pipeline
 	
