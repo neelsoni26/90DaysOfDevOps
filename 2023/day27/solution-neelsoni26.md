@@ -45,7 +45,7 @@ Follow the steps below to create a distributed Jenkins pipeline integrating dock
 	
 	![6](https://i.ibb.co/sRQSkqH/7-day27.png)
 
-This was how docker is integrated with declarative Jenkins pipeline.
+This is how the docker is integrated with declarative Jenkins pipeline.
 
 # Contact
 
