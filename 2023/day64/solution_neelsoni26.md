@@ -66,7 +66,7 @@ Next, in the resource block, as we want to create the AWS instances, the `aws_in
 
 In this resource block, `count` indicates the amount of instances you need to create, the `ami` to specify the image, `instance_type` to specify the instance type and `tags` to provide tag (name) to the instace.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704777847674/5f1e2979-b595-48f6-b951-a35ed03ba30b.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704777847674/5f1e2979-b595-48f6-b951-a35ed03ba30b.png)
 
 You can find AMI ID from the launch instance.
 
