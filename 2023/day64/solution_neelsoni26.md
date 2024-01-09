@@ -23,7 +23,7 @@ In order to connect your AWS account and Terraform, you need the access keys and
 
 **Refer**
 
-* To create IAM user [click here](https://neel-soni.hashnode.dev/aws-iam-create-user-add-to-group-and-attach-policies) \[Create only user\]
+* To create IAM user and attach policy [click here](https://neel-soni.hashnode.dev/aws-iam-create-user-add-to-group-and-attach-policies)
     
 * To install and configure AWS CLI [click here](https://neel-soni.hashnode.dev/iam-programmatic-access-and-aws-cli)
     
@@ -56,7 +56,7 @@ resource "aws_instance" "aws_ec2_test" {
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704776824082/d962b4b4-118e-4821-8e8e-34a7fc9cfd7d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704776824082/d962b4b4-118e-4821-8e8e-34a7fc9cfd7d.png)
 
 Here in the terraform block, it will fetch `AWS` from it's registry with the specific version.
 
@@ -72,11 +72,11 @@ You can find AMI ID from the launch instance.
 
 After this write command: `terraform init` , followed by `terraform apply` . Then it will create instances.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704777537859/351a865c-b13f-4264-9b69-44fc9a2f7831.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704777537859/351a865c-b13f-4264-9b69-44fc9a2f7831.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704777730056/1a500a05-54ec-43c4-b9ab-798e43be9b66.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704777730056/1a500a05-54ec-43c4-b9ab-798e43be9b66.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704777743018/75675252-3823-44f3-94dd-99559d7c6ecf.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704777743018/75675252-3823-44f3-94dd-99559d7c6ecf.png)
 
 Write "yes" when asked for a value.
 
@@ -84,7 +84,7 @@ Then it will start creating instances.
 
 Verify on the AWS console.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704777799267/21308338-e787-4779-a082-e5d44271a33f.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704777799267/21308338-e787-4779-a082-e5d44271a33f.png)
 
 ---
 
